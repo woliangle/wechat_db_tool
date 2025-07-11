@@ -1,4 +1,4 @@
-# wechat_db_tool
+# 微信一键获取key、解密、加密。现阶段仅支持4.0以下
 wechat
 
 此项目获取key部分是学习PyWxDump 项目的代码书写，引用了基地址偏移文件
