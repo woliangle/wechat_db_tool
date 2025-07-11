@@ -20,7 +20,10 @@ go build -ldflags="-H windowsgui" -o wechat_key_extractor.exe
 
 一、项目简介
 wechat_db_tool 是一个用于获取 wx 帐户信息（ID与数据库密钥）、解密数据库，加密的程序
-此项目主要用于聊天数据库恢复
+
+
+此项目主要用于聊天数据库恢复（请勿使用非法用途）
+
 
 二、项目规划
 
