@@ -3,6 +3,20 @@ wechat
 
 此项目获取key部分是学习PyWxDump 项目的代码书写，引用了基地址偏移文件
 https://github.com/xaoyaoo/PyWxDump/blob/master/pywxdump/WX_OFFS.json
+项目打包流程
+配置代理
+#### 0x0 配置代理
+```go env -w GOPROXY=https://goproxy.cn,direct```
+
+设置
+set CGO_ENABLED=1
+
+set CC=gcc
+
+go mod init wechat_db_tool
+go mod tidy
+
+go build -ldflags="-H windowsgui" -o wechat_key_extractor.exe
 
 一、项目简介
 wechat_db_tool 是一个用于获取 wx 帐户信息（ID与数据库密钥）、解密数据库，加密的程序
